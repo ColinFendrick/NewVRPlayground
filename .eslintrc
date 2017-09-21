@@ -1,0 +1,31 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "arrow-body-style": 0,
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-array-index-key": 0,
+    "react/sort-prop-types": [
+      1,
+      {
+        "requiredFirst": true
+      }
+    ],
+    "max-len": [
+      2,
+      175,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignorePattern": "url.+"
+      }
+    ]
+  },
+  "globals": {
+    "__DEV__": true
+  }
+}
